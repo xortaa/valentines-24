@@ -2,15 +2,28 @@ import "../styles/root.css"
 import { useState } from "react"
 
 export default function Root() {
+  const [hidden, setHidden] = useState(true)
+
   return (
     <div className='homePage'>
+      <img
+        src={process.env.PUBLIC_URL + "/catshakira-cat.gif"}
+        alt='shakira cat'
+        className={hidden ? "hidden cat" : "cat"}
+      />
       <div className='typewriter'>
-        <h1>WILL YOU BE MY VALENTINE? 🙈🙈</h1>
+        <h1>WILL YOU BE MY VALENTINE?</h1>
       </div>
       <div className='button_container'>
-        <button className='button' id='yes'>
-          YES
-        </button>
+        <a href='confession'>
+          <button
+            className='button'
+            id='yes'
+            onMouseEnter={() => setHidden(false)}
+            onMouseLeave={() => setHidden(true)}>
+            {hidden ? "YES" : "😳😳"}
+          </button>
+        </a>
         <button className='button' id='no'>
           NO
         </button>

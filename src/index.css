@@ -4,11 +4,6 @@
     src: url('../public/MonumentGrotesk-Regular.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'Expose Regular';
-    src: url('../public/Expose-Regular.otf') format('opentype');
-}
-
 * { 
   padding: 0;
   margin: 0;

@@ -9,6 +9,23 @@
   position: relative;
 }
 
+.hidden { 
+  display: none;
+}
+
+.cat { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 40vh;
+  z-index: -1;
+  border-radius: 30px;
+  opacity: 0.6;
+  transition: all 2s ease;
+}
+
 h1 { 
   font-family: 'Monument Grotesk';
   font-size: 2.2vw;
@@ -42,7 +59,8 @@ h1 {
   border-bottom: 4px solid red;
   font-family: "Monument Grotesk";
   font-size: 1.5vw;
-  padding: 10px 60px;
+  width: 20vw;
+  
 }
 
 .button:hover {
