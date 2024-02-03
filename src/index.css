@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* import font  C:\Users\kercwin\code\dev\meow\public\MonumentGrotesk-Regular.ttf*/
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('../public/MonumentGrotesk-Regular.ttf') format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Expose Regular';
+    src: url('../public/Expose-Regular.otf') format('opentype');
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a  {
+  text-decoration: none;
+  color: inherit;
+}
+
+li  {
+  list-style: none;
 }
