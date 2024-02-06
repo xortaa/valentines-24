@@ -1,0 +1,20 @@
+.mahal { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  color: purple;
+  padding: 20px;
+  cursor: pointer;
+  padding: 30px;
+  width: 100vw;
+  user-select: none;
+  /* add blinking animation */
+  animation: blink 3s linear infinite;
+}
+
+.hide{ 
+  color: rgba(0, 0, 0, 0);
+  transition: 0.5s ease;
+}
+

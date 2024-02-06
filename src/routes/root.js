@@ -9,13 +9,13 @@ export default function Root() {
       <img
         src={process.env.PUBLIC_URL + "/catshakira-cat.gif"}
         alt='shakira cat'
-        className={hidden ? "hidden cat" : "cat"}
+        className={hidden ? "cat" : "cat cat_hover"}
       />
       <div className='typewriter'>
         <h1>WILL YOU BE MY VALENTINE?</h1>
       </div>
       <div className='button_container'>
-        <a href='confession'>
+        <a href='to-my-valentine'>
           <button
             className='button'
             id='yes'
