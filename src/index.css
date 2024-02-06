@@ -24,7 +24,7 @@
 }
 
 body { 
-  /* background color that is easy on the eyes with black text */
+  overflow-x: hidden;
   background-color: #f5f5f5;
 }
 
